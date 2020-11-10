@@ -1,0 +1,16 @@
+{
+  "name": "proxy-app",
+  "version": "1.0.0",
+  "description": "Middleware that proxies HTTP requests and tracks sessions metadata",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.5.1",
+    "redis": "^3.0.2"
+  }
+}
